@@ -20,6 +20,7 @@ public class PizzaFactory {
             pizza = new VegetablePizza();
         else if (type.equals("SeaFood"))
             pizza = new SeaFoodPizza();
+        
         return pizza;
     }
 }

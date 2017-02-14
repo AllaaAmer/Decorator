@@ -25,7 +25,6 @@ public class Factory {
         System.out.println("************************************************");
 
         String type1 = "Vegetables";
-        PizzaRestaurant rest1 = new PizzaRestaurant(factory);
         rest.OrderPizza(type1);
         
         System.out.println("************************************************");
@@ -33,7 +32,6 @@ public class Factory {
         //********************AlaaEnd**********************
         //********************NourStart**********************
         String type2 = "SeaFood";
-        PizzaRestaurant rest2 = new PizzaRestaurant(factory);
         rest.OrderPizza(type2);
         //********************NourEnd**********************
     }
