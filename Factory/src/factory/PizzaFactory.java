@@ -15,11 +15,11 @@ public class PizzaFactory {
     
     public Pizza createPizza (String type){
         if (type.equals("Cheese"))
-            pizza = null ; //new CheesePizza();
+            pizza = new CheesePizza();
         else if(type.equals("Vegetables"))
-            pizza = null; // VegetablesPizza();
+            pizza = new VegetablePizza();
         else if (type.equals("SeaFood"))
-            pizza = null; //SeaFoodPizza();
+            pizza = new SeaFoodPizza();
         return pizza;
     }
 }
