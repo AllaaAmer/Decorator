@@ -11,14 +11,14 @@ package decorator;
  */
 public class Sandwich {
     
-    int price;
-    String description;
+    float price;
+    String description = "This is just a Sandwich ";
 
-    public int getPrice() {
-        return price;
+    public float getPrice() {
+        return 10f;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 

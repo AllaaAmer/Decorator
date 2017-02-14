@@ -9,11 +9,11 @@ package decorator;
  *
  * @author alaa
  */
-public class ChickenSandwich extends Sandwich{
+public class BeefSandwich extends Sandwich {
 
     @Override
     public String getDescription() {
-        return super.getDescription()+ " with Chicken "; //To change body of generated methods, choose Tools | Templates.
+        return super.getDescription()+ " with Beef "; //To change body of generated methods, choose Tools | Templates.
     }
     
     
@@ -22,5 +22,6 @@ public class ChickenSandwich extends Sandwich{
     public float getPrice() {
         return super.getPrice()+ 5f; //To change body of generated methods, choose Tools | Templates.
     }
+    
     
 }

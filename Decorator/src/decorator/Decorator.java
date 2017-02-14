@@ -15,7 +15,20 @@ public class Decorator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        /************************ AllaaStarted ****************/
+        ChickenSandwich chickenSandwich = new ChickenSandwich();
+        System.out.println("**********************************************");
+        System.out.println("You ordered : " + chickenSandwich.getDescription());
+        System.out.println("with Price : "+ chickenSandwich.getPrice());
+        System.out.println("*********************************************");
+        /************************ AllaaEnd ****************/ 
+        
+        
+        /************************ NourStarted ****************/
+        
+        
+        /************************ NourEnd ****************/
     }
+    
     
 }
