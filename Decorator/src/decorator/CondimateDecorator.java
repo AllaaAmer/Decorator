@@ -7,15 +7,11 @@ package decorator;
 
 /**
  *
- * @author alaa
+ * @author Nour
  */
-public class Decorator {
+public abstract class CondimateDecorator extends Sandwich{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-    }
+    @Override
+    public abstract String getDescription();
     
 }
