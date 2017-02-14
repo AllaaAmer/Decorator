@@ -9,18 +9,22 @@ package decorator;
  *
  * @author alaa
  */
-public class ChickenSandwich extends Sandwich{
+public class FishSandwish extends Sandwich{
 
     @Override
     public String getDescription() {
-        return super.getDescription()+ " with Chicken "; //To change body of generated methods, choose Tools | Templates.
+        return super.getDescription()+ " With Fish "; //To change body of generated methods, choose Tools | Templates.
     }
-    
-    
 
     @Override
     public float getPrice() {
         return super.getPrice()+ 5f; //To change body of generated methods, choose Tools | Templates.
     }
+
+          
+    
+    
+    
+    
     
 }
