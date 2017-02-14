@@ -23,7 +23,7 @@ public class Cheese extends CondimateDecorator{
     }
 
     @Override
-    public int getPrice() {
+    public float getPrice() {
         return sandwich.getPrice()+2; 
     }
     
