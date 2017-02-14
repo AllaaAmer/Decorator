@@ -16,3 +16,4 @@ hs_err_pid*
 #/Decorator/nbproject/
 #/Decorator/dist/
 #/Decorator/build/ 
+/Factory/nbproject/private/
