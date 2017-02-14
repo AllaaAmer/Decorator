@@ -31,8 +31,18 @@ public class Decorator {
         
         
         /************************ NourStarted ****************/
+        chickenSandwich=new Ketchup(chickenSandwich);
+        chickenSandwich=new Cheese(chickenSandwich);
+        System.out.println("**********************************************");
+        System.out.println("You ordered : " + chickenSandwich.getDescription());
+        System.out.println("with Price : "+ chickenSandwich.getPrice());
+        System.out.println("*********************************************");
         
-        
+        fishSandwich=new Ketchup(fishSandwich);
+        System.out.println("**********************************************");
+        System.out.println("You ordered : " + fishSandwich.getDescription());
+        System.out.println("with Price : "+ fishSandwich.getPrice());
+        System.out.println("*********************************************");
         /************************ NourEnd ****************/
     }
     
