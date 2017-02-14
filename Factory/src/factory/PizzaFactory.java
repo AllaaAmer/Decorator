@@ -11,5 +11,15 @@ package factory;
  */
 public class PizzaFactory {
     
-   // public Pizza 
+    Pizza pizza = null;
+    
+    public Pizza createPizza (String type){
+        if (type.equals("Cheese"))
+            pizza = null ; //new CheesePizza();
+        else if(type.equals("Vegetables"))
+            pizza = null; // VegetablesPizza();
+        else if (type.equals("SeaFood"))
+            pizza = null; //SeaFoodPizza();
+        return pizza;
+    }
 }
