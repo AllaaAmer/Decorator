@@ -18,7 +18,7 @@ public class FishSandwish extends Sandwich{
 
     @Override
     public float getPrice() {
-        return super.getPrice()+ 5f; //To change body of generated methods, choose Tools | Templates.
+        return super.getPrice()+ 20f; //To change body of generated methods, choose Tools | Templates.
     }
 
           

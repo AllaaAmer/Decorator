@@ -16,10 +16,16 @@ public class Decorator {
      */
     public static void main(String[] args) {
         /************************ AllaaStarted ****************/
-        ChickenSandwich chickenSandwich = new ChickenSandwich();
+        Sandwich chickenSandwich = new ChickenSandwich();
         System.out.println("**********************************************");
         System.out.println("You ordered : " + chickenSandwich.getDescription());
         System.out.println("with Price : "+ chickenSandwich.getPrice());
+        System.out.println("*********************************************");
+        
+        Sandwich fishSandwich = new FishSandwish();
+        System.out.println("**********************************************");
+        System.out.println("You ordered : " + fishSandwich.getDescription());
+        System.out.println("with Price : "+ fishSandwich.getPrice());
         System.out.println("*********************************************");
         /************************ AllaaEnd ****************/ 
         
